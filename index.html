@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <h3>Multiple Converter</h3>
+        <div class="divider"></div>
+
+        <!-- Category Section -->
+        <div class="category_wrapper">
+          <label for="category_select">Select a category</label>
+          <select name="" id="category_select">
+            <option value="area">Area</option>
+            <option value="length">Length</option>
+            <option value="mass">Mass</option>
+          </select>
+        </div>
+
+        <div class="convert_section">
+          <div>
+            <input type="text" class="text_input" id="left_input" />
+            <select name="" id="left_select">
+              <option value="tone">Tone</option>
+              <option value="kilogram">Kilogram</option>
+              <option value="gram">Gram</option>
+            </select>
+          </div>
+          <div class="equal_icon">=</div>
+          <div>
+            <input type="text" class="text_input" id="right_input" />
+            <select name="" id="right_select">
+              <option value="tone">Tone</option>
+              <option value="kilogram">Kilogram</option>
+              <option value="gram">Gram</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <b>Formula : </b> <span id="formula"></span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="index.js" />
+  </body>
+</html>
