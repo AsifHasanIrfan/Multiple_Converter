@@ -1,4 +1,4 @@
-import { convert } from './data.js';
+import { convert } from '/data.js';
 
 window.onload = function () {
   main();
